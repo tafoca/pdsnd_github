@@ -1,7 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
-import useful_functions as uf
+import useful_functions as u_f
 
 CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
@@ -170,7 +170,7 @@ def user_stats(df):
 def main():
     
     while True:
-        city, month, day = uf.get_filters()
+        city, month, day = u_f.get_filters()
         df = load_data(city, month, day)
         print(df.columns)
       #  print(df.head(2))
