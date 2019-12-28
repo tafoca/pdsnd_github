@@ -16,5 +16,5 @@ The project takes 3 cities in the United States from where the data is collected
    3. washington.csv
 
 ### Credits
-* [https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes]
+* https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes 
 
